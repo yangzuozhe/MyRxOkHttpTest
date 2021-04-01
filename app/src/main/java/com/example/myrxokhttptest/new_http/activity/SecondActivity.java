@@ -21,6 +21,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     private void initHttp() {
+        //接口一的内容
         HttpUtils.getInstance().getConfig("author", "鸿洋", new HttpUtils.OnResponseListener<WanAndroidBean>() {
             @Override
             public void onSuccess(WanAndroidBean bean) {
@@ -32,6 +33,9 @@ public class SecondActivity extends AppCompatActivity {
 
             }
         });
+
+
+
     }
 
 
