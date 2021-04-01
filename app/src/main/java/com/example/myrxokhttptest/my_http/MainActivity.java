@@ -1,10 +1,12 @@
-package com.example.myrxokhttptest;
+package com.example.myrxokhttptest.my_http;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.myrxokhttptest.R;
 
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;

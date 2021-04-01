@@ -1,4 +1,4 @@
-package com.example.myrxokhttptest;
+package com.example.myrxokhttptest.my_http;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;

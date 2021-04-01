@@ -1,4 +1,4 @@
-package com.example.myrxokhttptest;
+package com.example.myrxokhttptest.my_http;
 
 import android.app.Application;
 import android.content.Context;

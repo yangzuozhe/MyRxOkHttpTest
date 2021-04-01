@@ -1,9 +1,8 @@
-package com.example.myrxokhttptest;
+package com.example.myrxokhttptest.my_http;
 
 import com.google.gson.JsonObject;
 
 import io.reactivex.Observable;
-import retrofit2.Call;
 import retrofit2.http.POST;
 import retrofit2.http.Query;
 
@@ -21,4 +20,6 @@ public interface ApiService {
 
     @POST("apis/life27/")
     Observable<WeatherBean> getBean(@Query("id") String city);
+
+    Observable<WeatherBean> getBeanWithPath();
 }

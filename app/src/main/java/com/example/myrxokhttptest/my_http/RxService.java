@@ -1,4 +1,4 @@
-package com.example.myrxokhttptest;
+package com.example.myrxokhttptest.my_http;
 
 import android.webkit.WebSettings;
 
@@ -38,7 +38,7 @@ public class RxService {
             .readTimeout(10, TimeUnit.SECONDS);
 
     private static Retrofit mRetrofit = new Retrofit.Builder()
-            //api接口的地址
+            //api接口的地址,最后要加上/
             .baseUrl("http://api.help.bj.cn/")
             //okhttp 的 builder
             .client(mBuilder.build())

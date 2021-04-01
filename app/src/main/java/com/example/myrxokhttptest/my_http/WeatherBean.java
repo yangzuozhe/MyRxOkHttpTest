@@ -1,4 +1,4 @@
-package com.example.myrxokhttptest;
+package com.example.myrxokhttptest.my_http;
 
 public class WeatherBean {
     /**
