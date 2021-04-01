@@ -35,7 +35,7 @@ public class HttpUtils {
      */
     public void getConfig(String key, String value, OnResponseListener<WanAndroidBean> listener) {
         RxService.createApi(APIFunction.class)
-                .getBean(getParams("author","鸿洋"))
+                .getBean(getParams(key,value))
                 .compose(setThread())
                 .subscribe(new Observer<WanAndroidBean>() {
                     @Override
